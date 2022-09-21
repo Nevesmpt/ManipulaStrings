@@ -24,10 +24,17 @@ class ExerciciosStrings {
                 System.out.print(s.charAt(y));
             }
             System.out.println();
+            
         }
         
-       
-
+        for(x=s.length()-1;x>=0;x--){
+            for(y=0;y < x; y++){
+                System.out.print(s.charAt(y));
+            }
+            System.out.println();
+        
+        }    
+        
     }
     
 }
