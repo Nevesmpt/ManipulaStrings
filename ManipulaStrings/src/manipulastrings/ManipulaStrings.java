@@ -21,8 +21,12 @@ public class ManipulaStrings {
            switch(op){
                case 0: break;
                case 1:
-                   ExerciciosStrings.contaCaracteres();
+                   System.out.println("A string Inserida tem: "+
+                   ExerciciosStrings.contaCaracteres()+" caracteres");
                    break;
+                   /*int t = ExerciciosStrings.contaCaracteres();
+                   System.out.println("A string inserida tem; "+t+" caracteres");
+                   */
                default:
                    System.out.println("Insira opção válida");
            }    
