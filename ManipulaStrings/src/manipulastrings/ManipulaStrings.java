@@ -12,6 +12,7 @@ public class ManipulaStrings {
        do{
            System.out.println(">>>>>>>>>MENU<<<<<<<<<<");
            System.out.println("1 - Tamanho String");
+           System.out.println("2 - árvore de letras");
            
            
            
@@ -27,6 +28,9 @@ public class ManipulaStrings {
                    /*int t = ExerciciosStrings.contaCaracteres();
                    System.out.println("A string inserida tem; "+t+" caracteres");
                    */
+               case 2: 
+                   ExerciciosStrings.arvoreCharAt(); break;
+               
                default:
                    System.out.println("Insira opção válida");
            }    
