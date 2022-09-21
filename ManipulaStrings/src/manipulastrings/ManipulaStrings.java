@@ -13,7 +13,7 @@ public class ManipulaStrings {
            System.out.println(">>>>>>>>>MENU<<<<<<<<<<");
            System.out.println("1 - Tamanho String");
            System.out.println("2 - árvore de letras");
-           
+           System.out.println("Capitalização de letras");
            
            
            System.out.println("0 - Sair");
@@ -30,6 +30,10 @@ public class ManipulaStrings {
                    */
                case 2: 
                    ExerciciosStrings.arvoreCharAt(); break;
+                
+               case 3: 
+                   ExerciciosStrings.capitalizaLetras(); break;    
+                   
                
                default:
                    System.out.println("Insira opção válida");

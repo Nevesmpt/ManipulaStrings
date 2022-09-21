@@ -36,5 +36,13 @@ class ExerciciosStrings {
         }    
         
     }
+
+    static void capitalizaLetras() {
+    
+      lerStrings("Insira um texto em maiusculas");
+      System.out.println(s.toLowerCase());
+      lerStrings("Insira um texto em minusculas");
+      System.out.println(s.toUpperCase());
+    }
     
 }
